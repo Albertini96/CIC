@@ -1,0 +1,5 @@
+@media only screen and (max-width: 1160px) {
+    span{
+        display: none;
+    }
+}

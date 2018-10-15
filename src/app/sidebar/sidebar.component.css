@@ -1,0 +1,26 @@
+.g-sidebar{
+    background-color: #FFFFFF;
+    box-shadow: inset -1px 0 0 0 #ddd;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    left: 0;
+    overflow: auto;
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+
+.g-sidebar-head {
+    height: 60px;
+}
+
+hr {
+   border: 0;
+   clear:both;
+   display:block;
+   width: 90%;               
+   background-color:#DDDDDD;
+   height: 1px;
+ }

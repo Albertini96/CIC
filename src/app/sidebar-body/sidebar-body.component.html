@@ -1,0 +1,12 @@
+<div class="sidebar-items">
+    <div class="row" *ngFor="let menuItem of menuItems" style="display: flex;align-items: center; margin-top: 20px" >
+        <div class="col">
+            <a [routerLink]="[menuItem.path]" (click)="shareLocation(menuItem.title)" routerLinkActive="active" class="sidebar-item" #rla="routerLinkActive">
+                <i class="material-icons">{{menuItem.icon}}</i>
+                <a>{{menuItem.title}}</a>
+            </a>
+        </div>
+        <div [ngClass]="{ 'triangle-left': rla.isActive}"></div>
+    </div>
+</div>
+

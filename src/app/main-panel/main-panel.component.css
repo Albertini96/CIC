@@ -1,0 +1,32 @@
+.g-main-panel{
+    background-color: #f4f3ef;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    float: right;
+    min-height: 100%;
+    overflow:auto;
+    overflow-x: hidden;
+}
+
+.g-main-panel-head{
+    height: 60px;
+}
+
+.sticky-nav{
+    background-color: #f4f3ef;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+hr {
+   border: 0;
+   clear:both;
+   display:block;               
+   background-color:#DDDDDD;
+   height: 1px;
+   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
